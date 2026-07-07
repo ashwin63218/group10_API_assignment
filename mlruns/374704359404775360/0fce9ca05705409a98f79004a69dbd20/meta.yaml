@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/aadhirachhibber/Desktop/API_Assignment/mlruns/374704359404775360/0fce9ca05705409a98f79004a69dbd20/artifacts
+end_time: 1783407037287
+entry_point_name: ''
+experiment_id: '374704359404775360'
+lifecycle_stage: active
+run_id: 0fce9ca05705409a98f79004a69dbd20
+run_name: Logistic_Regression
+run_uuid: 0fce9ca05705409a98f79004a69dbd20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783407035624
+status: 3
+tags: []
+user_id: aadhirachhibber

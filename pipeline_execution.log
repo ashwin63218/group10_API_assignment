@@ -1,0 +1,394 @@
+=========================================
+Execution Timestamp: Tue Jul  7 12:45:34 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file 'pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 14:30:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file 'pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 14:32:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file 'pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 14:34:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file 'pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 14:36:01 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 14:38:19 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 14:40:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 14:40:25 IST 2026
+=========================================
+=== [DataOps] Starting Data Pipeline Workflows ===
+[1.2 Ingestion] Loaded dataset successfully. Shape: (900, 10)
+
+--- 1.3 Summary Statistics ---
+                Names         Age  ...         Company       Churn
+count             900  900.000000  ...             900  900.000000
+unique            899         NaN  ...             873         NaN
+top     Jennifer Wood         NaN  ...  Anderson Group         NaN
+freq                2         NaN  ...               4         NaN
+mean              NaN   41.816667  ...             NaN    0.166667
+std               NaN    6.127560  ...             NaN    0.372885
+min               NaN   22.000000  ...             NaN    0.000000
+25%               NaN   38.000000  ...             NaN    0.000000
+50%               NaN   42.000000  ...             NaN    0.000000
+75%               NaN   46.000000  ...             NaN    0.000000
+max               NaN   65.000000  ...             NaN    1.000000
+
+[11 rows x 10 columns]
+
+--- 1.3 Data Types & Missing Values ---
+Names               object
+Age                float64
+Total_Purchase     float64
+Account_Manager      int64
+Years              float64
+Num_Sites          float64
+Onboard_date        object
+Location            object
+Company             object
+Churn                int64
+dtype: object
+Missing Values:
+ Names              0
+Age                0
+Total_Purchase     0
+Account_Manager    0
+Years              0
+Num_Sites          0
+Onboard_date       0
+Location           0
+Company            0
+Churn              0
+dtype: int64
+
+[1.4 EDA] Dropping text metadata columns for training: ['Names', 'Onboard_date', 'Location', 'Company']
+
+--- 1.4 Correlation Matrix (Top 5x5 Slice) ---
+                      Age  Total_Purchase  Account_Manager     Years  Num_Sites
+Age              1.000000       -0.037208        -0.014749  0.005625  -0.006070
+Total_Purchase  -0.037208        1.000000         0.015856 -0.005623  -0.003390
+Account_Manager -0.014749        0.015856         1.000000  0.022930   0.033401
+Years            0.005625       -0.005623         0.022930  1.000000   0.051642
+Num_Sites       -0.006070       -0.003390         0.033401  0.051642   1.000000
+
+=== [DataOps] Pipeline Run Successfully Completed ===
+=========================================
+Execution Timestamp: Tue Jul  7 14:42:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 14:42:28 IST 2026
+=========================================
+=== [DataOps] Starting Data Pipeline Workflows ===
+[1.2 Ingestion] Loaded dataset successfully. Shape: (900, 10)
+
+--- 1.3 Summary Statistics ---
+                Names         Age  ...         Company       Churn
+count             900  900.000000  ...             900  900.000000
+unique            899         NaN  ...             873         NaN
+top     Jennifer Wood         NaN  ...  Anderson Group         NaN
+freq                2         NaN  ...               4         NaN
+mean              NaN   41.816667  ...             NaN    0.166667
+std               NaN    6.127560  ...             NaN    0.372885
+min               NaN   22.000000  ...             NaN    0.000000
+25%               NaN   38.000000  ...             NaN    0.000000
+50%               NaN   42.000000  ...             NaN    0.000000
+75%               NaN   46.000000  ...             NaN    0.000000
+max               NaN   65.000000  ...             NaN    1.000000
+
+[11 rows x 10 columns]
+
+--- 1.3 Data Types & Missing Values ---
+Names               object
+Age                float64
+Total_Purchase     float64
+Account_Manager      int64
+Years              float64
+Num_Sites          float64
+Onboard_date        object
+Location            object
+Company             object
+Churn                int64
+dtype: object
+Missing Values:
+ Names              0
+Age                0
+Total_Purchase     0
+Account_Manager    0
+Years              0
+Num_Sites          0
+Onboard_date       0
+Location           0
+Company            0
+Churn              0
+dtype: int64
+
+[1.4 EDA] Dropping text metadata columns for training: ['Names', 'Onboard_date', 'Location', 'Company']
+
+--- 1.4 Correlation Matrix (Top 5x5 Slice) ---
+                      Age  Total_Purchase  Account_Manager     Years  Num_Sites
+Age              1.000000       -0.037208        -0.014749  0.005625  -0.006070
+Total_Purchase  -0.037208        1.000000         0.015856 -0.005623  -0.003390
+Account_Manager -0.014749        0.015856         1.000000  0.022930   0.033401
+Years            0.005625       -0.005623         0.022930  1.000000   0.051642
+Num_Sites       -0.006070       -0.003390         0.033401  0.051642   1.000000
+
+=== [DataOps] Pipeline Run Successfully Completed ===
+=========================================
+Execution Timestamp: Tue Jul  7 14:44:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 14:44:29 IST 2026
+=========================================
+=== [DataOps] Starting Data Pipeline Workflows ===
+[1.2 Ingestion] Loaded dataset successfully. Shape: (900, 10)
+
+--- 1.3 Summary Statistics ---
+                Names         Age  ...         Company       Churn
+count             900  900.000000  ...             900  900.000000
+unique            899         NaN  ...             873         NaN
+top     Jennifer Wood         NaN  ...  Anderson Group         NaN
+freq                2         NaN  ...               4         NaN
+mean              NaN   41.816667  ...             NaN    0.166667
+std               NaN    6.127560  ...             NaN    0.372885
+min               NaN   22.000000  ...             NaN    0.000000
+25%               NaN   38.000000  ...             NaN    0.000000
+50%               NaN   42.000000  ...             NaN    0.000000
+75%               NaN   46.000000  ...             NaN    0.000000
+max               NaN   65.000000  ...             NaN    1.000000
+
+[11 rows x 10 columns]
+
+--- 1.3 Data Types & Missing Values ---
+Names               object
+Age                float64
+Total_Purchase     float64
+Account_Manager      int64
+Years              float64
+Num_Sites          float64
+Onboard_date        object
+Location            object
+Company             object
+Churn                int64
+dtype: object
+Missing Values:
+ Names              0
+Age                0
+Total_Purchase     0
+Account_Manager    0
+Years              0
+Num_Sites          0
+Onboard_date       0
+Location           0
+Company            0
+Churn              0
+dtype: int64
+
+[1.4 EDA] Dropping text metadata columns for training: ['Names', 'Onboard_date', 'Location', 'Company']
+
+--- 1.4 Correlation Matrix (Top 5x5 Slice) ---
+                      Age  Total_Purchase  Account_Manager     Years  Num_Sites
+Age              1.000000       -0.037208        -0.014749  0.005625  -0.006070
+Total_Purchase  -0.037208        1.000000         0.015856 -0.005623  -0.003390
+Account_Manager -0.014749        0.015856         1.000000  0.022930   0.033401
+Years            0.005625       -0.005623         0.022930  1.000000   0.051642
+Num_Sites       -0.006070       -0.003390         0.033401  0.051642   1.000000
+
+=== [DataOps] Pipeline Run Successfully Completed ===
+=========================================
+Execution Timestamp: Tue Jul  7 14:46:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 14:46:30 IST 2026
+=========================================
+=== [DataOps] Starting Data Pipeline Workflows ===
+[1.2 Ingestion] Loaded dataset successfully. Shape: (900, 10)
+
+--- 1.3 Summary Statistics ---
+                Names         Age  ...         Company       Churn
+count             900  900.000000  ...             900  900.000000
+unique            899         NaN  ...             873         NaN
+top     Jennifer Wood         NaN  ...  Anderson Group         NaN
+freq                2         NaN  ...               4         NaN
+mean              NaN   41.816667  ...             NaN    0.166667
+std               NaN    6.127560  ...             NaN    0.372885
+min               NaN   22.000000  ...             NaN    0.000000
+25%               NaN   38.000000  ...             NaN    0.000000
+50%               NaN   42.000000  ...             NaN    0.000000
+75%               NaN   46.000000  ...             NaN    0.000000
+max               NaN   65.000000  ...             NaN    1.000000
+
+[11 rows x 10 columns]
+
+--- 1.3 Data Types & Missing Values ---
+Names               object
+Age                float64
+Total_Purchase     float64
+Account_Manager      int64
+Years              float64
+Num_Sites          float64
+Onboard_date        object
+Location            object
+Company             object
+Churn                int64
+dtype: object
+Missing Values:
+ Names              0
+Age                0
+Total_Purchase     0
+Account_Manager    0
+Years              0
+Num_Sites          0
+Onboard_date       0
+Location           0
+Company            0
+Churn              0
+dtype: int64
+
+[1.4 EDA] Dropping text metadata columns for training: ['Names', 'Onboard_date', 'Location', 'Company']
+
+--- 1.4 Correlation Matrix (Top 5x5 Slice) ---
+                      Age  Total_Purchase  Account_Manager     Years  Num_Sites
+Age              1.000000       -0.037208        -0.014749  0.005625  -0.006070
+Total_Purchase  -0.037208        1.000000         0.015856 -0.005623  -0.003390
+Account_Manager -0.014749        0.015856         1.000000  0.022930   0.033401
+Years            0.005625       -0.005623         0.022930  1.000000   0.051642
+Num_Sites       -0.006070       -0.003390         0.033401  0.051642   1.000000
+
+=== [DataOps] Pipeline Run Successfully Completed ===
+=========================================
+Execution Timestamp: Tue Jul  7 14:48:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 14:48:32 IST 2026
+=========================================
+=== [DataOps] Starting Data Pipeline Workflows ===
+[1.2 Ingestion] Loaded dataset successfully. Shape: (900, 10)
+
+--- 1.3 Summary Statistics ---
+                Names         Age  ...         Company       Churn
+count             900  900.000000  ...             900  900.000000
+unique            899         NaN  ...             873         NaN
+top     Jennifer Wood         NaN  ...  Anderson Group         NaN
+freq                2         NaN  ...               4         NaN
+mean              NaN   41.816667  ...             NaN    0.166667
+std               NaN    6.127560  ...             NaN    0.372885
+min               NaN   22.000000  ...             NaN    0.000000
+25%               NaN   38.000000  ...             NaN    0.000000
+50%               NaN   42.000000  ...             NaN    0.000000
+75%               NaN   46.000000  ...             NaN    0.000000
+max               NaN   65.000000  ...             NaN    1.000000
+
+[11 rows x 10 columns]
+
+--- 1.3 Data Types & Missing Values ---
+Names               object
+Age                float64
+Total_Purchase     float64
+Account_Manager      int64
+Years              float64
+Num_Sites          float64
+Onboard_date        object
+Location            object
+Company             object
+Churn                int64
+dtype: object
+Missing Values:
+ Names              0
+Age                0
+Total_Purchase     0
+Account_Manager    0
+Years              0
+Num_Sites          0
+Onboard_date       0
+Location           0
+Company            0
+Churn              0
+dtype: int64
+
+[1.4 EDA] Dropping text metadata columns for training: ['Names', 'Onboard_date', 'Location', 'Company']
+
+--- 1.4 Correlation Matrix (Top 5x5 Slice) ---
+                      Age  Total_Purchase  Account_Manager     Years  Num_Sites
+Age              1.000000       -0.037208        -0.014749  0.005625  -0.006070
+Total_Purchase  -0.037208        1.000000         0.015856 -0.005623  -0.003390
+Account_Manager -0.014749        0.015856         1.000000  0.022930   0.033401
+Years            0.005625       -0.005623         0.022930  1.000000   0.051642
+Num_Sites       -0.006070       -0.003390         0.033401  0.051642   1.000000
+
+=== [DataOps] Pipeline Run Successfully Completed ===
+=========================================
+Execution Timestamp: Tue Jul  7 14:50:01 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 14:52:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 14:54:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 14:56:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 14:58:01 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 15:00:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 15:02:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 15:04:45 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 15:06:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 15:08:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 15:10:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 15:12:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 15:14:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 15:16:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
+=========================================
+Execution Timestamp: Tue Jul  7 15:18:00 IST 2026
+=========================================
+/opt/anaconda3/bin/python: can't open file '/Users/aadhirachhibber/Desktop/API_Assignment/pipeline_utils.py': [Errno 1] Operation not permitted
